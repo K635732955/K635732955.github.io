@@ -1,10 +1,334 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>个人主页</title>
+<title>假正经的hugh kim的个人首页</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+
+<link href='https://fonts.googleapis.com/css?family=Overlock:400,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+<script src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+		$(document).ready(function($) {
+			$(".scroll").click(function(event){
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+</script>
 </head>
 <body>
-<div>hahahahh哈哈哈哈哈ashdkasjhdkjashkdjhakshdkashdkj</div>
+	<div id="home" class="banner">
+		<div class="banner-info">
+			<div class="container">
+				<div class="col-md-4 header-left">
+					<img src="images/name.jpeg" alt="头像"/>
+				</div>
+				<div class="col-md-1 header-right"></div>
+				<div class="col-md-7 header-right">
+					<h2>你好</h2>
+					<h1>我叫金辉  Hugh Kim</h1>
+					<h6>前端开发，产品设计</h6>
+					<ul class="address">
+						<li style="margin-top: 23px">
+							<ul class="address-text">
+								<li><b>毕业院校 </b></li>
+								<li>天津理工大学(2018应届生)</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>毕业专业</b></li>
+								<li>软件工程</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>联系方式</b></li>
+								<li>(+86) 136 1202 7001</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>邮箱地址 </b></li>
+								<li><a href="mailto:635732955@qq.com">635732955@qq.com</a></li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>出生日期 </b></li>
+								<li>1994年05月26日</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+
+	<div class="top-nav wow">
+		<div class="container">
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<div class="menu">
+					<ul class="nav navbar">
+						<li><a href="#about" class="scroll">自我介绍</a></li>
+						<li><a href="#projects" class="scroll"></a></li>
+						<li><a href="#work" class="scroll">工作经历&教育背景</a></li>
+						<li><a href="#projects" class="scroll"></a></li>
+						<li><a href="#contact" class="scroll">项目展示(产品&前端)</a></li>
+					</ul>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+	</div>	
+
+	<div id="about" class="about">
+		<div class="container">
+			<h3 class="title"> 自我介绍</h3>
+			<div class="col-md-8 about-left">
+				<p style="font-size: 1.1em">我毕业于天津理工大学（普普通通二本）之前在大学实习期间从事过两份程序开发工作，
+					主要的职务是“前端开发”“项目实施”。先后参与的项目为“大圆碗餐饮收银系统”，“Odoo二次开发--仓储信息模块”,
+				</p>
+				<br>
+				<p style="font-size: 1.1em">
+					具备Web网站 / App设计和开发经验，有一定的逻辑沟通能力和抗压能力，良好的团队合作协作关系和思维规划性。
+					有志朝产品方向发展。</p>
+			</div>
+			<div class="col-md-4 about-right">
+				<ul>
+					<h5>个人爱好</h5>
+					<li style="font-size: 1.1em"><span class="glyphicon glyphicon-menu-right"></span> 登山&旅游。</li>
+					<li style="font-size: 1.1em"><span class="glyphicon glyphicon-menu-right"></span> 征服五岳。</li>
+					<li style="font-size: 1.1em"><span class="glyphicon glyphicon-menu-right"></span> 目标珠峰。</li>
+					<li style="font-size: 1.1em"><span class="glyphicon glyphicon-menu-right"></span> 文能下厨炸丸子。</li>
+					<li style="font-size: 1.1em"><span class="glyphicon glyphicon-menu-right"></span> 武能球场带节奏。</li>
+				</ul>
+
+			</div>
+
+		</div>
+	</div>
+
+	<div id="work" class="col-md-6 work" >
+		<div class="col-md-12 container">
+			<h3 class="col-md-12 title">工作（实习）经历</h3>
+			<div class="work-info"> 
+				<div class="col-md-4 work-left">
+					<h4>2017.08-2017.12 </h4>
+				</div>
+				<div class="col-md-8 work-right">
+					<h5><span class="glyphicon glyphicon-briefcase"> </span> 凯拓未来科技有限公司</h5>
+					<p style="font-size: 1.2em">1.实习期间，参与公司"大圆碗餐饮收银系统"项目前端开发。</p><br>
+					<p style="font-size: 1.2em">2.分析并设计用户交互方式，并针对使用流程设计进行改进。</p><br>
+					<p style="font-size: 1.2em">3.运用Hybrid App开发方式进行前端开发并通过接口调用数据。</p><br>
+					<p style="font-size: 1.2em">4.整理产品上线后的测试反馈并修改，并与产品经理和研发部门沟通。</p><br>
+					<p style="font-size: 1.2em">5.完善个人对整个开发流程的认识。</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="work-info">
+				<div class="col-md-4 work-left">
+					<h4>2018.03-2018.06 </h4>
+				</div>
+				<div class="col-md-8 work-right">
+					<h5><span class="glyphicon glyphicon-briefcase"></span> 通津网络科技有限公司  </h5>
+					<p style="font-size: 1.2em">1.参与公司承接的天津某线缆公司ERP系统仓储模块的设计与开发。</p><br>
+					<p style="font-size: 1.2em">2.Visio制定流程图。针对特定仓储进行逻辑归类，并编辑仓储Ecxel数据表。</p><br>
+					<p style="font-size: 1.2em">3.模块成功在ERP系统上运行，提高该公司在实际工作中的效率。</p><br>
+					<p style="font-size: 1.2em">4.模块运行后，根据用户实施过程中的反馈，进行功能迭代更新。</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+
+		</div>
+	</div>
+
+	<div id="education" class="col-md-6 education" >
+		<div class="col-md-12 container">
+			<h3 class="col-md-12 title">教育背景</h3>
+			<div class="work-info">
+				<div class="col-md-6 work-left">
+					<h4>2016.08-2018.06</h4>
+				</div>
+				<div class="col-md-6 work-right">
+					<h5><span class="glyphicon glyphicon-education"> </span> 天津理工大学</h5>
+					<p><h3 style="color: #999">专业 ： 软件工程 </h3></p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="work-info" style="margin-bottom:150px">
+				<div class="col-md-6 work-left">
+					<h4>2013.09-2016.07</h4>
+				</div>
+				<div class="col-md-6 work-right">
+					<h5><span class="glyphicon glyphicon-education"> </span> 天津中德应用技术大学</h5>
+					<p><h3 style="color: #999">专业 ： 机械设计与制造 </h3></p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="col-md-1"></div>
+			<div class="col-md-10 about-right" style="margin-bottom:28px">
+				<ul>
+					<h5>技能&语言</h5>
+					<li><h3>掌握 ：</h3> <h3 style="text-align: center">
+							<span>Office</span>，
+							<span>Xmind</span>，
+							<span>Visio</span>，
+							<span>Axure RP</span>，
+							<span>ProcessOn</span>
+						</h3>
+					</li>
+					<li><h3>熟练 ：</h3> <h3 style="text-align: center">
+						<span>JavaScript</span>，
+						<span>Vue.js</span>，
+						<span>XML</span>，
+						<span>Linux操作命令</span>
+						</h3>
+					</li>
+				</ul>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="col-md-1"></div>
+		</div>
+	</div>
+
+	<div id="projects" class="portfolio">
+		<div class="container">
+			<h3 class="title wow zoomInLeft animated" data-wow-delay=".5s">项目展示(产品&前端)</h3>
+			<div class="sap_tabs">			
+				<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+					<ul class="resp-tabs-list wow fadeInUp animated" data-wow-delay=".7s">
+						<li class="resp-tab-item"><span>全部</span></li>
+						<li class="resp-tab-item"><span>前端</span></li>
+						<li class="resp-tab-item"><span>产品</span></li>
+					</ul>	
+					<div class="clearfix"> </div>	
+					<div class="resp-tabs-container">
+						<div class="tab-1 resp-tab-content">
+							<div class="tab_img">
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g1.jpg" class="swipebox" title="">
+											<img src="images/g1.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>My<span> Project</span></h3>
+												<p>Sarah likes to watch clouds. She's quite depressed.</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid effect-sarah">
+										<a href="images/g2.jpg" class="swipebox" title="">
+											<img src="images/g2.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>My<span> Project</span></h3>
+												<p>Sarah likes to watch clouds. She's quite depressed.</p>
+											</div>
+										</a>	
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div class="tab-1 resp-tab-content">
+							<div class="tab_img">
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g1.jpg" class="swipebox" title="">
+											<img src="images/g1.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>My<span> Project</span></h3>
+												<p>Sarah likes to watch clouds. She's quite depressed.</p>
+											</div>
+										</a>
+									</div>
+								</div>
+
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div class="tab-1 resp-tab-content">
+							<div class="tab_img">
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid effect-sarah">
+										<a href="images/g2.jpg" class="swipebox" title="">
+											<img src="images/g2.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>My<span> Project</span></h3>
+												<p>Sarah likes to watch clouds. She's quite depressed.</p>
+											</div>
+										</a>
+									</div>
+								</div>
+
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+			<script type="text/javascript">
+				$(document).ready(function () {
+					$('#horizontalTab').easyResponsiveTabs({
+						type: 'default',
+						width: 'auto',
+						fit: true
+					});
+				});		
+			</script>
+		</div>
+	</div>
+
+	<div class="welcome contact" id="contact">
+		<div class="container">
+			<div class="contact-row">
+				<div class="col-md-12 contact-right">
+					<div class="address-left">
+						<p>电话号码 :  (+86) 136 1202 7001</p>
+						<p>电子邮箱 : <a href="mailto:635732955@qq.com">635732955@qq.com</a></p>
+					</div>
+					<div class="address-right">
+						<p>可接受短期出差💪 👌</p><br>
+						<p>可接受加班💪 👌</p><br>
+						<p>再说现在哪有互联网公司不加班的！！！！！！😱 😱 😱</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<div class="container">
+			<p>版权所有 &copy; 2018.求职中。。。。。。。。。。。。。。。
+				<a href="#" target="_blank" title="Hugh Kim">Hugh Kim</a>
+			</p>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			var defaults = {
+				containerID: 'toTop',
+				containerHoverID: 'toTopHover',
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			$().UItoTop({ easingType: 'easeOutQuart' });
+		});
+	</script>
+    <script src="js/bootstrap.js"></script>
 </body>
 </html>
